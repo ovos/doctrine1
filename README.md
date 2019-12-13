@@ -3,8 +3,8 @@ Doctrine 1
 
 [![Build Status](https://travis-ci.com/ovos/doctrine1.svg?branch=master)](https://travis-ci.com/ovos/doctrine1)
 
-This is a fork of [doctrine/doctrine1](https://github.com/doctrine/doctrine1), adjusted for compatibility with php 5.3-7.3
-and mysql 5.7 & 8.0. Tested only with mysql.
+This is a fork of [doctrine/doctrine1](https://github.com/doctrine/doctrine1), adjusted for compatibility with php 5.3-7.4
+and mysql 5.7 and 8.0. Tested only with mysql.
 
 It will be maintained as long as we are using it.
 Feel free to submit your [Issues](https://github.com/ovos/doctrine1/issues) and [Pull Requests](https://github.com/ovos/doctrine1/pulls).
