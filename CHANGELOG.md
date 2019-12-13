@@ -1,3 +1,7 @@
+1.3.1
+-----
+- fixed MySQL8 compatibility issue - row_number is now a reserved word
+
 1.3.0
 -----
 - php 7.3 and mysql 5.7 compatible
