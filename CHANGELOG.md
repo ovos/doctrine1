@@ -1,6 +1,6 @@
 1.3.1
 -----
-- fixed MySQL8 compatibility issue - row_number is now a reserved word
+- fixed MySQL8 compatibility issue - `row_number` is now a reserved word [#5](https://github.com/ovos/doctrine1/pull/5)
 
 1.3.0
 -----
