@@ -1,3 +1,7 @@
+1.3.2
+-----
+- fixed Doctrine_Validator_HtmlColor class name to match the filename and fix compatibility with psr-0 autoloading
+
 1.3.1
 -----
 - fixed MySQL8 compatibility issue - `row_number` is now a reserved word [#5](https://github.com/ovos/doctrine1/pull/5)
