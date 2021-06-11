@@ -1,3 +1,8 @@
+1.3.3
+-----
+- fixed PHP8 error:
+PHP Deprecated:  Required parameter $tableAliases follows optional parameter $sqlPart in lib\Doctrine\Query\Abstract.php on line 2468
+
 1.3.2
 -----
 - fixed Doctrine_Validator_HtmlColor class name to match the filename and fix compatibility with psr-0 autoloading
@@ -23,7 +28,7 @@
 - fixed weird conditions in _buildSqlFromPart
 - check for non-specified 'ASC' order in automatic orderBy to avoid duplicates
 - fixed [DC-797 (link unavailable)](https://github.com/doctrine/doctrine1/issues/71) - Record hydrated as dirty if optional relation is empty [doctrine/doctrine1#8](https://github.com/doctrine/doctrine1/pull/8/) - fix for Doctrine_Record::_isValueModified
-- fix for Doctrine_Record::getMutators()
+- fix for Dotrine_Record::getMutators()
 - [OV2] refactored link/unlink methods in Doctrine_Record - now they do not load whole relations before linking/unlinking
 - [OV3] toArray should consider custom accessors also for mapped values
 - [OV4] added postRelatedSave hook in Record to be called on save, after all relations are also saved (original postSave method is called before any relation is saved)
